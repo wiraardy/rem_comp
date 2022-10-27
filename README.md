@@ -103,7 +103,7 @@ scraper.anime.mal_top_airing()
 })
 ```
 #### output
-```json
+```json 
 {
   result: [
     {
