@@ -29,22 +29,6 @@ Usage
 var scraper = require('rem_comp')
 
 ```
-zerochan
-rexdl
-stickerSearch
-mangatoon
-GSMArena
-kiryu
-merdekanews
-emoji
-apkmirror
-anoboydl
-anoboys
-film
-mediafire
-chara
-igdl
-soundcloud
 ### NewFeature 
 
 <details><summary><b>Zerochan</b></summary><br>
@@ -107,7 +91,7 @@ scraper.other.rexdl('whatsapp')
     judul: undefined,
     kategori: 'Android / APP / Communication',
     upload_date: ' October 8, 2022',
-    deskripsi: 'GBWhatsApp MOD APK 13.65聽(Full) (Plus) for Android GBWhatsApp 鈥? WhatsApp Mod [Dual WhatsApp in One Phone] GBWhatsApp Mod is built on the latest version of the WhatsApp and allows you to run two WhatsApp...',
+    deskripsi: 'GBWhatsApp MOD APK 13.65?(Full) (Plus) for Android GBWhatsApp – WhatsApp Mod [Dual WhatsApp in One Phone] GBWhatsApp Mod is built on the latest version of the WhatsApp and allows you to run two WhatsApp...',
     thumb: 'https://rexdl.com/wp-content/uploads/2020/02/gbwhatsapp-plus-android-thumb-200x200.jpg',
     link: 'https://rexdl.com/android/gbwhatsapp-plus-apk-mod.html/'
   },
@@ -115,20 +99,36 @@ scraper.other.rexdl('whatsapp')
     creator: 'rem',
     judul: undefined,
     kategori: 'Android / APP / Communication / Social',
-    upload_date: ' July 31, 2022',                                                                                                                deskripsi: 'Download WhatsApp Plus (WhatsApp+)聽JiMODs 9.35聽Apk for Android Reborn Version +聽Anti Ban WhatsApp Plus 賻Anti Ban v3.0 WhatsApp JiMODs v9.30 WhatsApp+ v10.50 WhatsApp Jt JiMODs v9.30 [New] What if we tell you that our WhatsApp...',
-    thumb: 'https://rexdl.com/wp-content/uploads/2015/10/WhatsApp-Plus-Android-thumb-320x320.png',                                                link: 'https://rexdl.com/android/download-whatsapp-plus-apk.html/'                                                                          },                                                                                                                                            {                                                                                                                                               creator: 'rem',
+    upload_date: ' July 31, 2022',
+    deskripsi: 'Download WhatsApp Plus (WhatsApp+)?JiMODs 9.35?Apk for Android Reborn Version +?Anti Ban WhatsApp Plus ?Anti Ban v3.0 WhatsApp JiMODs v9.30 WhatsApp+ v10.50 WhatsApp Jt JiMODs v9.30 [New] What if we tell you that our WhatsApp...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2015/10/WhatsApp-Plus-Android-thumb-320x320.png',
+    link: 'https://rexdl.com/android/download-whatsapp-plus-apk.html/'
+  },
+  {
+    creator: 'rem',
     judul: undefined,
     kategori: 'Android / APP / Communication',
     upload_date: ' June 30, 2022',
-    deskripsi: 'YoWhatsApp Plus MOD APK 10.70聽(Full) Android [Latest Version] YoWhatsApp is actually a WhatsApp mod which has some advanced and unique features which you can鈥檛 find in WhatsApp. There are some people who are searching...',
+    deskripsi: 'YoWhatsApp Plus MOD APK 10.70?(Full) Android [Latest Version] YoWhatsApp is actually a WhatsApp mod which has some advanced and unique features which you can’t find in WhatsApp. There are some people who are searching...',
     thumb: 'https://rexdl.com/wp-content/uploads/2021/05/yowhatsapp-android-200x200.jpg',
     link: 'https://rexdl.com/android/yowhatsapp-apk.html/'
-  },                                                                                                                                            {                                                                                                                                               creator: 'rem',
-    judul: undefined,                                                                                                                             kategori: 'Android / APP / Communication / Messenger',
-    upload_date: ' August 28, 2021',                                                                                                              deskripsi: 'WhatsApp 2.21.18.5 GBWhatsApp + WhatsApp Plus Apk Android [Latest] X86 WhatsApp Messenger is a messaging app available for Android and other smartphones. WhatsApp uses your phone鈥檚 Internet connection (4G/3G/2G/EDGE or Wi-Fi, as available) to...',
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Communication / Messenger',
+    upload_date: ' August 28, 2021',
+    deskripsi: 'WhatsApp 2.21.18.5 GBWhatsApp + WhatsApp Plus Apk Android [Latest] X86 WhatsApp Messenger is a messaging app available for Android and other smartphones. WhatsApp uses your phone’s Internet connection (4G/3G/2G/EDGE or Wi-Fi, as available) to...',
     thumb: 'https://rexdl.com/wp-content/uploads/2016/04/WhatsApp-Messenger-android-thumb.jpg',
     link: 'https://rexdl.com/android/whatsapp-messenger-apk-download.html/'
-  },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Personalization',                                                                                                  upload_date: ' May 23, 2021',                                                                                                                 deskripsi: 'GIF2Sticker 鈥? Animated Sticker Maker for WhatsApp APK 0.5.1 Android GIF2Sticker 鈥? Animated Sticker Maker for WhatsApp The best tool to create animated stickers for WhatsApp. With GIF2Sticker, you can convert your聽videos聽or聽GIFs into animated...',                          thumb: 'https://rexdl.com/wp-content/uploads/2021/05/gif2sticker-android-200x200.jpg',
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Personalization',
+    upload_date: ' May 23, 2021',
+    deskripsi: 'GIF2Sticker – Animated Sticker Maker for WhatsApp APK 0.5.1 Android GIF2Sticker – Animated Sticker Maker for WhatsApp The best tool to create animated stickers for WhatsApp. With GIF2Sticker, you can convert your?videos?or?GIFs into animated...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2021/05/gif2sticker-android-200x200.jpg',
     link: 'https://rexdl.com/android/gif2sticker-apk.html/'
   },
   {
@@ -143,13 +143,37 @@ scraper.other.rexdl('whatsapp')
   {
     creator: 'rem',
     judul: undefined,
-    kategori: 'Android / APP / Photography',                                                                                                      upload_date: ' October 27, 2022',                                                                                                             deskripsi: 'Adobe Photoshop Express Premium 8.6.1008聽Apk + Mod Full Unlocked PHOTO FUN FOR EVERYONE Tap into your creativity on the go with Photoshop Express鈥揳 fun, fast, and easy picture editor for one-touch transformations and photo...',
+    kategori: 'Android / APP / Photography',
+    upload_date: ' October 27, 2022',
+    deskripsi: 'Adobe Photoshop Express Premium 8.6.1008?Apk + Mod Full Unlocked PHOTO FUN FOR EVERYONE Tap into your creativity on the go with Photoshop Express–a fun, fast, and easy picture editor for one-touch transformations and photo...',
     thumb: 'https://rexdl.com/wp-content/uploads/2016/12/adobe-photoshop-express-premium-android-thumb.jpg',
     link: 'https://rexdl.com/android/adobe-photoshop-express-premium-apk.html/'
   },
   {
-    creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Video Players & Editors',                                                                                          upload_date: ' October 26, 2022',
-    deskripsi: 'FilmoraGo Video Editor & Maker Pro 7.2.0聽Apk Unlocked for Android Removed DMCA A pretty powerful video editor application, which will not stamp a watermark or place a time limit on your clip. With FilmoraGo,...',                                                            thumb: 'https://rexdl.com/wp-content/uploads/2017/01/filmorago-free-video-editor-pro-android-thumb.jpg',                                      link: 'https://rexdl.com/android/filmorago-free-video-editor-pro-unlocked-apk.html/'                                                        },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Photography',                                                                                                      upload_date: ' October 21, 2022',                                                                                                             deskripsi: 'InShot Pro Mod Apk 1.869.1383聽(Full Unlocked) Android InShot 鈥? Best FREE HD聽Video Editor聽and聽Video Maker聽with all features,聽trim & cut video/movie,聽blur background, add聽music,聽transition effects,聽text and emoji聽and聽filters! Powerful video editing features, record your precious moments of your...',                                                                                                                    thumb: 'https://rexdl.com/wp-content/uploads/2020/08/inshot-video-editor-video-maker-android-thumb-200x200.jpg',                              link: 'https://rexdl.com/android/inshot-video-editor-video-maker-apk.html/'                                                                 },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP',                                                                                                                    upload_date: ' October 17, 2022',                                                                                                             deskripsi: 'PhotoRoom Studio Photo Editor聽MOD APK 3.9.1-715聽(PRO Unlocked) Android PhotoRoom is the all-in-one app that edits, designs and optimizes great visual content that helps you run your business from your phone. Remove or erase the...',                                        thumb: 'https://rexdl.com/wp-content/uploads/2022/01/photoroom-android-200x200.jpg',
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Video Players & Editors',
+    upload_date: ' October 26, 2022',
+    deskripsi: 'FilmoraGo Video Editor & Maker Pro 7.2.0?Apk Unlocked for Android Removed DMCA A pretty powerful video editor application, which will not stamp a watermark or place a time limit on your clip. With FilmoraGo,...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2017/01/filmorago-free-video-editor-pro-android-thumb.jpg',
+    link: 'https://rexdl.com/android/filmorago-free-video-editor-pro-unlocked-apk.html/'
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Photography',
+    upload_date: ' October 21, 2022',
+    deskripsi: 'InShot Pro Mod Apk 1.869.1383?(Full Unlocked) Android InShot – Best FREE HD?Video Editor?and?Video Maker?with all features,?trim & cut video/movie,?blur background, add?music,?transition effects,?text and emoji?and?filters! Powerful video editing features, record your precious moments of your...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2020/08/inshot-video-editor-video-maker-android-thumb-200x200.jpg',
+    link: 'https://rexdl.com/android/inshot-video-editor-video-maker-apk.html/'
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP',
+    upload_date: ' October 17, 2022',
+    deskripsi: 'PhotoRoom Studio Photo Editor?MOD APK 3.9.1-715?(PRO Unlocked) Android PhotoRoom is the all-in-one app that edits, designs and optimizes great visual content that helps you run your business from your phone. Remove or erase the...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2022/01/photoroom-android-200x200.jpg',
     link: 'https://rexdl.com/android/photoroom-apk.html/'
   }
 ]
@@ -981,7 +1005,7 @@ scraper.other.merdekanews()
 > - (emoji) *type **String***
 
 ```js
-scraper.other.emoji('😁')
+scraper.other.emoji('?')
 .then(response => {
   console.log(response)
 })
@@ -1015,10 +1039,109 @@ scraper.other.emoji('😁')
 > - (query) *type **String***
 
 ```js
-scraper.other.apkmirror(query)
+scraper.other.apkmirror('whatsapp')
 .then(response => {
   console.log(response)
 })
+```
+
+#### output
+```json
+{
+  creator: 'rem',
+  data: [
+    {
+      judul: 'WhatsApp Business 2.22.23.17 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp-business/whatsapp-business-2-22-23-17-release/'
+    },
+    {
+      judul: 'WhatsApp Messenger 2.22.23.17 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp/whatsapp-2-22-23-17-release/'
+    },
+    {
+      judul: 'Do It Later: Auto WhatsApp SMS 4.8.8',
+      dev: 'by Kant.',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/kant/do-it-later-schedule-sms-auto-reply-text-whats/do-it-later-schedule-sms-auto-reply-text-whats-4-8-8-release/'
+    },
+    {
+      judul: 'WhatsApp Messenger 2.22.23.16 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp/whatsapp-2-22-23-16-release/'
+    },
+    {
+      judul: 'WhatsApp Business 2.22.23.16 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp-business/whatsapp-business-2-22-23-16-release/'
+    },
+    {
+      judul: 'AutoResponder for WhatsApp 2.9.5',
+      dev: 'by AutoResponder.ai',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/autoresponder-ai/autoresponder-for-whatsapp/autoresponder-for-whatsapp-2-9-5-release/'
+    },
+    {
+      judul: 'Do It Later: Auto WhatsApp SMS 4.8.9',
+      dev: 'by Kant.',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/kant/do-it-later-schedule-sms-auto-reply-text-whats/do-it-later-schedule-sms-auto-reply-text-whats-4-8-9-release/'
+    },
+    {
+      judul: 'WhatsApp Messenger 2.22.23.15 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp/whatsapp-2-22-23-15-release/'
+    },
+    {
+      judul: 'WhatsApp Business 2.22.22.80',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp-business/whatsapp-business-2-22-22-80-release/'
+    },
+    {
+      judul: 'WhatsApp Business 2.22.23.15 beta',
+      dev: 'by WhatsApp LLC',
+      size: undefined,
+      version: undefined,
+      uploaded_on: undefined,
+      download_count: undefined,
+      link: 'https://www.apkmirror.com/apk/whatsapp-inc/whatsapp-business/whatsapp-business-2-22-23-15-release/'
+    }
+  ]
+}
 ```
 </details>
 <details><summary><b>anoboy download link</b></summary><br>
@@ -1032,6 +1155,25 @@ scraper.other.anoboydl('https://anoboy.lol/2021/12/tokyo-revengers-live-action-2
   console.log(response)
 })
 ```
+
+#### output
+```json
+{
+  judul: 'Tokyo Revengers Live Action (2021) Subtitle Indonesia',                                                                                                                  uptime: 'Selasa, 04:25 Wib',                                                                                                                                                     direct_link: undefined,
+  mforu: {
+    SD: 'https://mega.nz/file/YRFHBSIB#sJm1qIF7CoAen3_WtAqZFjkjXu2a7Ph9qKtLnisJYFM',
+    HD: 'https://mega.nz/file/0IdhDY4R#Tc1zqeAmm-1auR9pd5SR2fU6Qj_l7jYUTds-AtgY5iM'
+  },
+  zippy: {
+     SD: 'https://www.mp4upload.com/fsewuqd3vckp',
+     HD: 'https://www.mp4upload.com/ae3224c67czw'
+      },
+ mirror: {
+      SD: 'https://www70.zippyshare.com/v/YnMvvGMg/file.html',
+      HD: 'none'                                                                                                                                                                     
+      }
+}
+```
 </details>
 <details><summary><b>film search</b></summary><br>
 
@@ -1039,10 +1181,106 @@ scraper.other.anoboydl('https://anoboy.lol/2021/12/tokyo-revengers-live-action-2
 > - (query) *type **String***
 
 ```js
-scraper.other.film(query)
+scraper.other.film('love')
 .then(response => {
   console.log(response)
 })
+```
+
+#### output
+```json
+[
+  {
+    judul: 'FOX LOVE (2022)',
+    genre: 'Drama, China',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2022/10/twaD0dgcp027VgJ90csvNMDt9pw-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/fox-love-2022/'
+  },
+  {
+    judul: 'Thor: Love and Thunder (2022)',
+    genre: 'Action, Comedy, Fantasy, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2022/09/pIkRyD18kl4FhoCNQuWxWu5cBLM-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/thor-love-and-thunder-2022/'
+  },
+  {
+    judul: 'Love Like the Falling Petals (2022)',
+    genre: 'Drama, Romance, Japan',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2022/03/8m2xnZAnMuydc87KCLS2gnUmidh-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/love-like-the-falling-petals-2022/'
+  },
+  {
+    judul: 'Redeeming Love (2022)',
+    genre: 'Drama, History, Romance, South Africa, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2022/02/z8VpsTdIjBhdeGeNEsHFwz6MJXp-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/redeeming-love-2022/'
+  },
+  {
+    judul: 'LOVERS (2019)',
+    genre: 'Romance, Germany',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2021/12/soWgUZ6aqj8f6E2AuEiUKU0sXIU-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/lovers-2019/'
+  },
+  {
+    judul: 'If Anything Happens I Love You (2020)',
+    genre: 'Animation, Drama, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2021/03/85tDhACvKDQxQoJhBYLvDU0ik1n-3-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/if-anything-happens-i-love-you-2020/'
+  },
+  {
+    judul: 'Story of Yan Chixia: Love in Lan Ruo Temple (2020)',
+    genre: 'Tak Berkategori, China',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2021/03/ebvYsTvxy5VsoByanojbB32ES8N-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/story-of-yan-chixia-love-in-lan-ruo-temple-2020/'
+  },
+  {
+    judul: 'Squared Love (2020)',
+    genre: 'Comedy, Romance, Poland',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2021/02/qeRCXsOitUdtDXc5sSVgwYGTZyg-2-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/squared-love-2020/'
+  },
+  {
+    judul: 'ariana grande: excuse me, i love you (2020)',
+    genre: 'Documentary, Music, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2021/01/nm10ajNVkKwwyf8VFPkZnr93GbC-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/ariana-grande-excuse-me-i-love-you-2020/'
+  },
+  {
+    judul: 'Divine Love',
+    genre: 'Drama, Science Fiction, Brazil, Chile, Denmark, Norway, Sweden, Uruguay',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/11/2vFlT0g66zZeqnrAFeNPsHNrKZW-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/divine-love/'
+  },
+  {
+    judul: 'Love, Guaranteed (2020)',
+    genre: 'Comedy, Romance, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/09/6K22JB6fZZLBuM0knfl8rs9Zoxg-3-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/love-guaranteed-2020/'
+  },
+  {
+    judul: 'World Famous Lover (2020)',
+    genre: 'Drama, Romance, India',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/08/tUiMt0ftDjSUvXwJDkkVZH6lY6g-3-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/world-famous-lover-2020/'
+  },
+  {
+    judul: 'Almost Love (2020)',
+    genre: 'Drama, Romance, USA',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/07/fZcZvNHAjB3eLzkFtwFwoCYGpjn-2-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/almost-love-2020/'
+  },
+  {
+    judul: 'Love and Run (2019)',
+    genre: 'Comedy, Romance, Thailand',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/06/1QChEoltWCxCqCMiuC6YA9wI5fo-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/love-and-run-2019/'
+  },
+  {
+    judul: 'Are We In Love? (2020)',
+    genre: 'Fantasy, Romance, Korea',
+    thumb: 'http://167.99.71.200/wp-content/uploads/2020/05/Af07K0TATzeEbG1YmwChULduP3S-152x228.jpg',
+    link_nonton: 'http://167.99.71.200/are-we-in-love-2020/'
+  }
+]
 ```
 </details>
 <details><summary><b>mediafire link download</b></summary><br>
@@ -1051,10 +1289,21 @@ scraper.other.film(query)
 > - (url) *type **String***
 
 ```js
-scraper.other.mediafire(url)
+scraper.other.mediafire('https://www.mediafire.com/file/vg5udti5rim2wd6/HappyMod-2-8-0.apk/file')
 .then(response => {
   console.log(response)
 })
+```
+
+#### output
+```json
+{
+  judul: 'https://download2392.mediafire.com/vtbgqsyxvvrg/vg5udti5rim2wd6/HappyMod-2-8-0.apk',
+  upload_date: '',
+  size: '',
+  mime: '',
+  link: 'https://download2392.mediafire.com/vtbgqsyxvvrg/vg5udti5rim2wd6/HappyMod-2-8-0.apk'
+}
 ```
 </details>
 <details><summary><b>character in animeplanet</b></summary><br>
@@ -1062,10 +1311,19 @@ scraper.other.mediafire(url)
 > Required parameters
 > - (query) *type **String***
 ```js
-scraper.other.chara(query)
+scraper.other.chara('elaina')
 .then(response => {
   console.log(response)
 })
+```
+
+#### output
+```json
+{                                                                                                                                                                                  nama: 'Elaina',                                                                                                                                                                  gender: 'Female ',                                                                                                                                                               warna_rambut: 'Grey ',                                                                                                                                                           warna_mata: undefined,
+  gol_darah: undefined,
+  birthday: undefined,
+  description: ''
+}
 ```
 </details>
 <details><summary><b>Instagram download media</b></summary><br>
@@ -1086,10 +1344,19 @@ scraper.other.igdl(url)
 > - (url) *type **String***
 
 ```js
-scraper.other.soundcloud(url)
+scraper.other.soundcloud('https://on.soundcloud.com/L9K2C')
 .then(response => {
   console.log(response)
 })
+```
+#### output
+```json
+{
+    judul: 'Keisya Levronka - Tak Ingin Usai (Slowed + Reverb)',
+   download_count: '6.49 M',
+   thumb: 'https://i1.sndcdn.com/artworks-tkgMX6xzd2YyWAoL-ncuaGg-original.jpg',
+   link: 'https://cf-media.sndcdn.com/OZUmFqgD12OI.128.mp3?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vT1pVbUZxZ0QxMk9JLjEyOC5tcDMqIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNjY2OTU1MDg4fX19XX0_&Signature=fvpaCy6trQs4QBJC8u8tOsywnOQDsD92qic4zsNSX~FUwt~A8EnCrzQ1rUnF-db4oRAteWyaU0v~YIzmtqPKhm72IxBpYBvEKuHWSl2edv-fyiNAy4kg6T1qrdndSUSXAB7xsR4kQUnB0FuAKZpgJ00P5mRlnxLW8gofksstPq47REh1A1wQI4xFRpN4h~wewznupVFzUY6O0CMpY5c~xHUT1ZbtHjldkNhbz72wTmGWH8zRyhw3IO-USGjAt4v~1oYwgdFKJwpDyOQ4s7h5q1HA8Wtut6YLSKvH8ahjlkmDwhylAnIJqWrMyG4rPIL44ocq8pHP55j7ROfjomM6dw__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ'
+}
 ```
 </details>
 
