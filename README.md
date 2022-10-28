@@ -22,11 +22,1077 @@ yarn add rem_comp
 * [News](#news)
 * [Text Pro](#textpro)
 
+* [New Feature](#newfeature)
+
 Usage
 ```js
 var scraper = require('rem_comp')
 
 ```
+zerochan
+rexdl
+stickerSearch
+mangatoon
+GSMArena
+kiryu
+merdekanews
+emoji
+apkmirror
+anoboydl
+anoboys
+film
+mediafire
+chara
+igdl
+soundcloud
+### NewFeature 
+
+<details><summary><b>Zerochan</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.zerochan('elaina')
+.then(response => {
+  console.log(response)
+})
+```
+#### output
+```json
+[
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3538159.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.2115259.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.2425190.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096894.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3101347.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3383306.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3137157.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096893.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3137033.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3170296.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096896.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3174535.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3560448.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096883.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3166912.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096874.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3175209.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3195666.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3575331.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096457.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096869.jpg',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096888.png',
+  'https://static.zerochan.net/Elaina.%28Majo.no.Tabitabi%29.full.3096895.jpg'
+   ]
+```
+</details>
+
+<details><summary><b>Rexdl</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.rexdl('whatsapp')
+.then(response => {
+  console.log(response)
+})
+```
+#### output
+```json
+[
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Communication',
+    upload_date: ' October 8, 2022',
+    deskripsi: 'GBWhatsApp MOD APK 13.65聽(Full) (Plus) for Android GBWhatsApp 鈥? WhatsApp Mod [Dual WhatsApp in One Phone] GBWhatsApp Mod is built on the latest version of the WhatsApp and allows you to run two WhatsApp...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2020/02/gbwhatsapp-plus-android-thumb-200x200.jpg',
+    link: 'https://rexdl.com/android/gbwhatsapp-plus-apk-mod.html/'
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Communication / Social',
+    upload_date: ' July 31, 2022',                                                                                                                deskripsi: 'Download WhatsApp Plus (WhatsApp+)聽JiMODs 9.35聽Apk for Android Reborn Version +聽Anti Ban WhatsApp Plus 賻Anti Ban v3.0 WhatsApp JiMODs v9.30 WhatsApp+ v10.50 WhatsApp Jt JiMODs v9.30 [New] What if we tell you that our WhatsApp...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2015/10/WhatsApp-Plus-Android-thumb-320x320.png',                                                link: 'https://rexdl.com/android/download-whatsapp-plus-apk.html/'                                                                          },                                                                                                                                            {                                                                                                                                               creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Communication',
+    upload_date: ' June 30, 2022',
+    deskripsi: 'YoWhatsApp Plus MOD APK 10.70聽(Full) Android [Latest Version] YoWhatsApp is actually a WhatsApp mod which has some advanced and unique features which you can鈥檛 find in WhatsApp. There are some people who are searching...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2021/05/yowhatsapp-android-200x200.jpg',
+    link: 'https://rexdl.com/android/yowhatsapp-apk.html/'
+  },                                                                                                                                            {                                                                                                                                               creator: 'rem',
+    judul: undefined,                                                                                                                             kategori: 'Android / APP / Communication / Messenger',
+    upload_date: ' August 28, 2021',                                                                                                              deskripsi: 'WhatsApp 2.21.18.5 GBWhatsApp + WhatsApp Plus Apk Android [Latest] X86 WhatsApp Messenger is a messaging app available for Android and other smartphones. WhatsApp uses your phone鈥檚 Internet connection (4G/3G/2G/EDGE or Wi-Fi, as available) to...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2016/04/WhatsApp-Messenger-android-thumb.jpg',
+    link: 'https://rexdl.com/android/whatsapp-messenger-apk-download.html/'
+  },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Personalization',                                                                                                  upload_date: ' May 23, 2021',                                                                                                                 deskripsi: 'GIF2Sticker 鈥? Animated Sticker Maker for WhatsApp APK 0.5.1 Android GIF2Sticker 鈥? Animated Sticker Maker for WhatsApp The best tool to create animated stickers for WhatsApp. With GIF2Sticker, you can convert your聽videos聽or聽GIFs into animated...',                          thumb: 'https://rexdl.com/wp-content/uploads/2021/05/gif2sticker-android-200x200.jpg',
+    link: 'https://rexdl.com/android/gif2sticker-apk.html/'
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Communication',
+    upload_date: ' May 4, 2021',
+    deskripsi: 'WhatsApp Business 2.21.10.2 Apk for Android WhatsApp Business enables you to have a business presence on WhatsApp, communicate more efficiently with your customers, and help you grow your business. If you have separate business...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2018/02/whatsapp-business-android-thumb.jpg',
+    link: 'https://rexdl.com/android/whatsapp-business-apk.html/'
+  },
+  {
+    creator: 'rem',
+    judul: undefined,
+    kategori: 'Android / APP / Photography',                                                                                                      upload_date: ' October 27, 2022',                                                                                                             deskripsi: 'Adobe Photoshop Express Premium 8.6.1008聽Apk + Mod Full Unlocked PHOTO FUN FOR EVERYONE Tap into your creativity on the go with Photoshop Express鈥揳 fun, fast, and easy picture editor for one-touch transformations and photo...',
+    thumb: 'https://rexdl.com/wp-content/uploads/2016/12/adobe-photoshop-express-premium-android-thumb.jpg',
+    link: 'https://rexdl.com/android/adobe-photoshop-express-premium-apk.html/'
+  },
+  {
+    creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Video Players & Editors',                                                                                          upload_date: ' October 26, 2022',
+    deskripsi: 'FilmoraGo Video Editor & Maker Pro 7.2.0聽Apk Unlocked for Android Removed DMCA A pretty powerful video editor application, which will not stamp a watermark or place a time limit on your clip. With FilmoraGo,...',                                                            thumb: 'https://rexdl.com/wp-content/uploads/2017/01/filmorago-free-video-editor-pro-android-thumb.jpg',                                      link: 'https://rexdl.com/android/filmorago-free-video-editor-pro-unlocked-apk.html/'                                                        },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP / Photography',                                                                                                      upload_date: ' October 21, 2022',                                                                                                             deskripsi: 'InShot Pro Mod Apk 1.869.1383聽(Full Unlocked) Android InShot 鈥? Best FREE HD聽Video Editor聽and聽Video Maker聽with all features,聽trim & cut video/movie,聽blur background, add聽music,聽transition effects,聽text and emoji聽and聽filters! Powerful video editing features, record your precious moments of your...',                                                                                                                    thumb: 'https://rexdl.com/wp-content/uploads/2020/08/inshot-video-editor-video-maker-android-thumb-200x200.jpg',                              link: 'https://rexdl.com/android/inshot-video-editor-video-maker-apk.html/'                                                                 },                                                                                                                                            {                                                                                                                                               creator: 'rem',                                                                                                                               judul: undefined,                                                                                                                             kategori: 'Android / APP',                                                                                                                    upload_date: ' October 17, 2022',                                                                                                             deskripsi: 'PhotoRoom Studio Photo Editor聽MOD APK 3.9.1-715聽(PRO Unlocked) Android PhotoRoom is the all-in-one app that edits, designs and optimizes great visual content that helps you run your business from your phone. Remove or erase the...',                                        thumb: 'https://rexdl.com/wp-content/uploads/2022/01/photoroom-android-200x200.jpg',
+    link: 'https://rexdl.com/android/photoroom-apk.html/'
+  }
+]
+```
+</details>
+
+<details><summary><b>Sticker Search</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.stickerSearch('anime')
+.then(response => {
+  console.log(response)
+})
+```
+#### output
+```json
+sticker: [
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-naruto-i-drugie-anime-naruto-memy/tray_large.png?7fea30be83aa33f83d5a8262623f8c5f',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-prikoly-anime/tray_large.png?528cda698eb6755170af26850b201dba',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-emocii/tray_large.png?15bf5367c0790dbde6dc66c333927fa0',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-4/tray_large.png?c78c6a736ea9a3675e7804f2ff79406f',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-3/tray_large.png?66bf381a7405c897f415246d14da05b6',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-2/tray_large.png?9268e2aac5912ab7332e717b63bd155c',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-27/tray_large.png?c468e67141859eef2ea0398996fc135d',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-1/tray_large.png?dd132e2029c18e12716f225f865f4958',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/stickers-apm-anime-peliculas-y-mas/tray_large.png?4c201226580df977c6030d2ae0506ace',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-1-2/tray_large.png?648855d9156f4d07d775cde4a73d03d6',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-2-4/tray_large.png?10c0ab5bba8d0860e3f5fa9fb0f2b3f1',
+    'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anger-and-anime/tray_large.png?67bc0c8e751cd16feb30c106109e8127'
+  ],
+  sticker1: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-naruto-i-drugie-anime-naruto-memy/tray_large.png?7fea30be83aa33f83d5a8262623f8c5f',
+    nama: 'Anime Naruto 懈 写褉褍谐懈械 #邪薪懈屑械 #薪邪褉褍褌芯 #袦械屑褘',
+    creator: '笑胁械褌芯泻袛卸褍谢懈褟'
+  },
+  sticker2: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-prikoly-anime/tray_large.png?528cda698eb6755170af26850b201dba',
+    nama: '袗薪懈屑械 锌褉懈泻芯谢褘 )) #anime',
+    creator: '笑胁械褌芯泻袛卸褍谢懈褟'
+  },
+  sticker3: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-emocii/tray_large.png?15bf5367c0790dbde6dc66c333927fa0',
+    nama: '袗薪懈屑械 褝屑芯褑懈懈 锟?',
+    creator: '笑胁械褌芯泻袛卸褍谢懈褟'
+  },
+  sticker4: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-4/tray_large.png?c78c6a736ea9a3675e7804f2ff79406f',
+    nama: 'Random Anime Pack #4',
+    creator: 'Matteiru'
+  },
+  sticker5: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-3/tray_large.png?66bf381a7405c897f415246d14da05b6',
+    nama: 'Random Anime Pack #3',
+    creator: 'Matteiru'
+  },
+  sticker6: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-2/tray_large.png?9268e2aac5912ab7332e717b63bd155c',
+    nama: 'Random Anime Pack #2',
+    creator: 'Matteiru'
+  },
+  sticker7: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-27/tray_large.png?c468e67141859eef2ea0398996fc135d',
+    nama: 'Anime ! 鉂わ笍鈥嶐煍?',
+    creator: '笑胁械褌芯泻袛卸褍谢懈褟'
+  },
+  sticker8: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-1/tray_large.png?dd132e2029c18e12716f225f865f4958',
+    nama: 'Random Anime Pack #1',
+    creator: 'Matteiru'
+  },
+  sticker9: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/stickers-apm-anime-peliculas-y-mas/tray_large.png?4c201226580df977c6030d2ae0506ace',
+    nama: 'STICKERS_APM_Anime, Peliculas y mas!',
+    creator: 'jg_yulioos'
+  },
+  sticker10: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-1-2/tray_large.png?648855d9156f4d07d775cde4a73d03d6',
+    nama: 'Anime #1',
+    creator: 'Simpfruit'
+  },
+  sticker11: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anime-2-4/tray_large.png?10c0ab5bba8d0860e3f5fa9fb0f2b3f1',
+    nama: 'Anime #2',
+    creator: 'Simpfruit'
+  },
+  sticker12: {
+    sticker: 'https://s3.getstickerpack.com/storage/uploads/sticker-pack/anger-and-anime/tray_large.png?67bc0c8e751cd16feb30c106109e8127',
+    nama: 'Anger and anime',
+    creator: 'CEOofYo'
+  }
+}
+```
+</details>
+
+<details><summary><b>mangatoon</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.mangatoon('solo')
+.then(response => {
+  console.log(response)
+})
+```
+
+#### output
+```json
+[
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'Action/Mystery/Adventure/Contributor',
+    comic_url: 'https://mangatoon.mobi/en/solo-leveling?content_id=1152130',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling [LN]',
+    comic_type: 'ction/Fantasy/Adventure/Game',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1866871/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling (Chat Story)',
+    comic_type: 'ction/Adventure/Supernatural',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/720837/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'ction/Fantasy/Adventure',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1050248/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling (LN)',
+    comic_type: 'ction/Fantasy/Adventure/Supernatural',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1283599/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: '"A Slime In A World Of Monarchs" ? Tensura X Solo Leveling',
+    comic_type: 'ame/System/Magic',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/2441860/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling [LN]',
+    comic_type: 'ragic/System/Magic',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/2397785/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Die And Get A Body Solo Leveling',
+    comic_type: 'ction/Fantasy/Adventure/Supernatural',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/854864/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'ction/Fantasy/Game',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1557040/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'orror/Action/Comedy/Adventure',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1666268/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'ction/Fantasy/Adventure/Game',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/1708765/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling',
+    comic_type: 'ction/Fantasy/Adventure/System',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/2058350/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Shadow Monarch Hero Deku [ Bnha X Solo Leveling ]',
+    comic_type: 'choollife/Action/Fantasy',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/845924/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  },
+  {
+    status: 200,
+    creator: 'rem',
+    comic_name: 'Solo Leveling Novel',
+    comic_type: 'ction/Adventure/Supernatural',
+    comic_url: 'https://mangatoon.mobihttps://noveltoon.mobi/en/detail/517885/comments',
+    comic_thumb: '/images/content_cover_default.webp'
+  }
+]
+```
+</details>
+<details><summary><b>GSMArena</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+```js
+scraper.other.GSMArena('iphone')
+.then(response => {
+  console.log(response)
+})
+```
+#### output
+```json
+{
+  judul: 'Apple iPhone 14 Pro Max',
+  rilis: 'Released 2022, September 16',
+  thumb: 'https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-14-pro-max-.jpg',
+  ukuran: '240g, 7.9mm thickness',
+  type: 'iOS 16, up to iOS 16.1',
+  storage: '128GB/256GB/1TB storage, no card slot',
+  display: '1290x2796 pixels',
+  inchi: '6.7"',
+  pixel: '48MP',
+  videoPixel: '2160p',
+  ram: '6GB RAM',
+  chipset: 'Apple A16 Bionic',
+  batrai: '4323mAh',
+  merek_batre: 'Li-Ion',
+  detail: '.tr-toggle {  display:none; }  \n' +
+    'Versions: A2894 (International); A2651 (USA); A2893 (Canada, Japan); A2896 (China, Hong Kong); A2895 (Russia)\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Network\n' +
+    'Technology\n' +
+    'GSM / CDMA / HSPA / EVDO / LTE / 5G\n' +
+    '\n' +
+    '\n' +
+    '2G bands\n' +
+    'GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 (dual-SIM)\n' +
+    '\n' +
+    '?\n' +
+    'CDMA 800 / 1900 \n' +
+    '\n' +
+    '\n' +
+    '3G bands\n' +
+    'HSDPA 850 / 900 / 1700(AWS) / 1900 / 2100 \n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    'CDMA2000 1xEV-DO \n' +
+    '\n' +
+    '\n' +
+    '4G bands\n' +
+    '1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2894, A2896\n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    '1, 2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 17, 18, 19, 20, 21, 25, 26, 28, 29, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 53, 66, 71 - A2651, A2893\n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    '1, 2, 3, 4, 5, 7, 8, 12, 13, 17, 18, 19, 20, 25, 26, 28, 30, 32, 34, 38, 39, 40, 41, 42, 46, 48, 66 - A2895\n' +
+    '\n' +
+    '\n' +
+    '5G bands\n' +
+    '1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2894, A2896\n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    '1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79, 258, 260, 261 SA/NSA/Sub6/mmWave - A2651\n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    '1, 2, 3, 5, 7, 8, 12, 14, 20, 25, 26, 28, 29, 30, 38, 40, 41, 48, 53, 66, 70, 71, 77, 78, 79 SA/NSA/Sub6 - A2893\n' +
+    '\n' +
+    '\n' +
+    '?\n' +
+    '1, 2, 3, 5, 7, 8, 12, 20, 25, 26, 28, 30, 38, 40, 41, 48, 66, 70, 77, 78, 79 SA/NSA/Sub6 - A2895\n' +
+    '\n' +
+    '\n' +
+    'Speed\n' +
+    'HSPA, LTE-A, 5G, EV-DO Rev.A 3.1 Mbps\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Launch\n' +
+    'Announced\n' +
+    '2022, September 07\n' +
+    '\t\n' +
+    '\n' +
+    'Status\n' +
+    'Available. Released 2022, September 16\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Body\n' +
+    'Dimensions\n' +
+    '160.7 x 77.6 x 7.9 mm (6.33 x 3.06 x 0.31 in)\n' +
+    '\n' +
+    'Weight\n' +
+    '240 g (8.47 oz)\n' +
+    '\n' +
+    '\n' +
+    'Build\n' +
+    'Glass front (Corning-made glass), glass back (Corning-made glass), stainless steel frame\n' +
+    '\n' +
+    '\n' +
+    'SIM\n' +
+    'Dual SIM (Nano-SIM and eSIM) or Dual eSIM - International Dual eSIM with multiple numbers - USA Dual SIM (Nano-SIM, dual stand-by) - China\n' +
+    '\n' +
+    '?IP68 dust/water resistant (up to 6m for 30 mins)\n' +
+    'Apple Pay (Visa, MasterCard, AMEX certified)\n' +
+    '\t\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Display\n' +
+    'Type\n' +
+    'LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)\n' +
+    '\n' +
+    '\n' +
+    'Size\n' +
+    '6.7 inches, 110.2 cm2 (~88.3% screen-to-body ratio)\n' +
+    '\n' +
+    '\n' +
+    'Resolution\n' +
+    '1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density)\n' +
+    '\n' +
+    '\n' +
+    'Protection\n' +
+    'Ceramic Shield glass\n' +
+    '\n' +
+    '?Always-On display\n' +
+    '\t\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Platform\n' +
+    'OS\n' +
+    'iOS 16, upgradable to iOS 16.1\n' +
+    '\n' +
+    'Chipset\n' +
+    'Apple A16 Bionic (4 nm)\n' +
+    '\n' +
+    'CPU\n' +
+    'Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth)\n' +
+    '\n' +
+    'GPU\n' +
+    'Apple GPU (5-core graphics)\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Memory\n' +
+    'Card slot\n' +
+    '\n' +
+    '\n' +
+    'No\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\n' +
+    'Internal\n' +
+    '128GB 6GB RAM, 256GB 6GB RAM, 512GB 6GB RAM, 1TB 6GB RAM\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '?NVMe\n' +
+    '\t\t\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\t\n' +
+    '\t\n' +
+    '\tMain Camera\n' +
+    '\t\tTriple\n' +
+    '\t48 MP, f/1.8, 24mm (wide), 1/1.28", 1.22?m, dual pixel PDAF, sensor-shift OIS\n' +
+    '12 MP, f/2.8, 77mm (telephoto), 1/3.5", PDAF, OIS, 3x optical zoom\n' +
+    '12 MP, f/2.2, 13mm, 120? (ultrawide), 1/2.55", 1.4?m, dual pixel PDAF\n' +
+    'TOF 3D LiDAR scanner (depth)\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\tFeatures\n' +
+    '\tDual-LED dual-tone flash, HDR (photo/panorama)\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\tVideo\n' +
+    '\t4K@24/25/30/60fps, 1080p@25/30/60/120/240fps, 10-bit HDR, Dolby Vision HDR (up to 60fps), ProRes, Cinematic mode (4K@24/30fps), stereo sound rec.\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\n' +
+    '\n' +
+    '\t\n' +
+    '\t\n' +
+    '\tSelfie camera\n' +
+    '\t\tSingle\n' +
+    '\t12 MP, f/1.9, 23mm (wide), 1/3.6", PDAF, OIS (unconfirmed)\n' +
+    'SL 3D, (depth/biometrics sensor)\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\tFeatures\n' +
+    '\tHDR, Cinematic mode (4K@24/30fps)\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\tVideo\n' +
+    '\t4K@24/25/30/60fps, 1080p@25/30/60/120fps, gyro-EIS\n' +
+    '\t\n' +
+    '\t\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Sound\n' +
+    'Loudspeaker \n' +
+    'Yes, with stereo speakers\n' +
+    '\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\n' +
+    '3.5mm jack \n' +
+    'No\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Comms\n' +
+    'WLAN\n' +
+    'Wi-Fi 802.11 a/b/g/n/ac/6, dual-band, hotspot\n' +
+    '\n' +
+    '\n' +
+    'Bluetooth\n' +
+    '5.3, A2DP, LE\n' +
+    '\n' +
+    '\n' +
+    'Positioning\n' +
+    'GPS (L1+L5), GLONASS, GALILEO, BDS, QZSS\n' +
+    '  \n' +
+    '\n' +
+    'NFC\n' +
+    'Yes\n' +
+    '\n' +
+    '\t\n' +
+    '\t\n' +
+    '\n' +
+    'Radio\n' +
+    'No\n' +
+    '\n' +
+    '   \n' +
+    '\n' +
+    'USB\n' +
+    'Lightning, USB 2.0\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Features\n' +
+    'Sensors\n' +
+    'Face ID, accelerometer, gyro, proximity, compass, barometer\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    ' \t\n' +
+    '\n' +
+    ' \t\n' +
+    ' \t\n' +
+    '?Ultra Wideband (UWB) support\n' +
+    'Emergency SOS via satellite (SMS sending/receiving)\n' +
+    '\t\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Battery\n' +
+    'Type\n' +
+    'Li-Ion 4323 mAh, non-removable (16.68 Wh)\n' +
+    '\n' +
+    '\n' +
+    'Charging\n' +
+    'Fast charging, 50% in 30 min (advertised)\n' +
+    'USB Power Delivery 2.0\n' +
+    'MagSafe fast wireless charging 15W\n' +
+    'Qi wireless charging 7.5W\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Misc\n' +
+    'Colors\n' +
+    'Space Black, Silver, Gold, Deep Purple\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Models\n' +
+    'A2894, A2651, A2893, A2895, iphone15,3\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'SAR\n' +
+    '1.15 W/kg (head) ? ? 1.07 W/kg (body) ? ? \n' +
+    '\n' +
+    '\n' +
+    'SAR EU\n' +
+    '0.99 W/kg (head) ? ? 0.98 W/kg (body) ? ? \n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Price\n' +
+    '$?1,099.99 / €?1,449.00 / ??1,199.00 / ??139,900\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Tests\n' +
+    'Performance\n' +
+    '\n' +
+    'AnTuTu: 955884 (v9)\n' +
+    'GeekBench: 5423 (v5.1)\n' +
+    'GFXBench: 54fps (ES 3.1 onscreen)\n' +
+    '\n' +
+    '\n' +
+    'Display\n' +
+    '\n' +
+    'Contrast ratio: Infinite (nominal)\n' +
+    '\n' +
+    '\n' +
+    'Camera\n' +
+    '\n' +
+    'Photo / Video\n' +
+    '\n' +
+    '\n' +
+    'Loudspeaker\n' +
+    '\n' +
+    '-24.3 LUFS (Very good)\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
+    'Battery life\n' +
+    '\n' +
+    '\n' +
+    'Endurance rating 121h'
+}
+```
+</details>
+<details><summary><b>kiryuu search</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.kiryu('re zero')
+.then(response => {
+  console.log(response)
+})
+```
+
+#### output
+```json
+[
+  {
+    judul: 'Re Zero Alternative',
+    rating: '7.6',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/re-zero-alternative-990039-q4MgeWHL-217x300.jpg',
+    link: 'https://kiryuu.id/manga/re-zero-alternative/'
+  },
+  {
+    judul: 'Keiken Zumi na Kimi to, Keikein Zero na Ore ga, Otsukiai Suru Hanashi',
+    rating: '7.00',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2022/02/keiken-zumi-na-kimi-to-keikein-zero-na-ore-ga-otsukiai-suru-hanashi-371170-JgPjfmgF-194x300.jpg',
+    link: 'https://kiryuu.id/manga/keiken-zumi-na-kimi-to-keikein-zero-na-ore-ga-otsukiai-suru-hanashi/'
+  },
+  {
+    judul: 'Maryoku Zero de Saikyou no Daikenja: Sore wa Mahou de wa Nai, Butsuri da!',
+    rating: '7.9',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/11/asdasfas-539444-6hGMeAB0.jpg',
+    link: 'https://kiryuu.id/manga/maryoku-zero-de-saikyou-no-daikenja-sore-wa-mahou-de-wa-nai-butsuri-da/'
+  },
+  {
+    judul: 'The Greatest Philosoper With Zero Magic',
+    rating: '8.5',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/05/the-greatest-philosoper-with-zero-magic-473189-287Zej0W.jpg',
+    link: 'https://kiryuu.id/manga/the-greatest-philosoper-with-zero-magic/'
+  },
+  {
+    judul: 'Re: Zero Kara Hajimeru Isekai Seikatsu – Kenki Koiuta',
+    rating: '4.8',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/re-zero-kara-hajimeru-isekai-seikatsu-kenki-koiuta-004752-t9tGr6hA-211x300.jpg',
+    link: 'https://kiryuu.id/manga/re-zero-kara-hajimeru-isekai-seikatsu-kenki-koiuta/'
+  },
+  {
+    judul: 'Re:Zero kara Hajimeru Isekai Seikatsu',
+    rating: '8.4',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/rezero-kara-hajimeru-isekai-seikatsu-994427-NQW3yFub-211x300.jpg',
+    link: 'https://kiryuu.id/manga/rezero-kara-hajimeru-isekai-seikatsu/'
+  },
+  {
+    judul: 'Saikyou Jiko Bukken to Reikan Zero Otoko no Hanashi.',
+    rating: '6',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/saikyou-jiko-bukken-to-reikan-zero-otoko-no-hanashi-130022-FzNiFjVF.jpg',
+    link: 'https://kiryuu.id/manga/saikyou-jiko-bukken-to-reikan-zero-otoko-no-hanashi/'
+  },
+  {
+    judul: 'Arifureta Shokugyou de Sekai Saikyou Zero',
+    rating: '9',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/arifureta-shokugyou-de-sekai-saikyou-zero-768892-4rm24uko-211x300.jpg',
+    link: 'https://kiryuu.id/manga/arifureta-shokugyou-de-sekai-saikyou-zero/'
+  },
+  {
+    judul: 'Circle Zero’s Otherworldly Hero Business: Reboot',
+    rating: '7',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/circle-zeros-otherworldly-hero-business-reboot-821007-17QQxV7J-207x300.jpg',
+    link: 'https://kiryuu.id/manga/circle-zeros-otherworldly-hero-business-reboot/'
+  },
+  {
+    judul: 'Isekai Shihai no Skill Taker: Zero kara Hajimeru Dorei Harem',
+    rating: '8',
+    thumb: 'https://kiryuu.id/wp-content/uploads/2021/03/isekai-shihai-no-skill-taker-zero-kara-hajimeru-dorei-harem-819891-fQ4gzfwx-209x300.jpg',
+    link: 'https://kiryuu.id/manga/isekai-shihai-no-skill-taker-zero-kara-hajimeru-dorei-harem/'
+  }
+]
+```
+</details>
+<details><summary><b>merdeka news</b></summary><br>
+
+> No Required parameters
+
+```js
+scraper.other.merdekanews()
+.then(response => {
+  console.log(response)
+})
+```
+
+#### output
+```json
+[
+  {
+    judul: 'Isu PKS Dapat Tawaran Jatah 2 Menteri di Kabinet Jokowi, Ini Respons PDIP',
+    upload_date: ' Sekitar 28 Menit yang lalu',
+    link: 'https://www.merdeka.com/politik/isu-pks-dapat-tawaran-jatah-2-menteri-di-kabinet-jokowi-ini-respons-pdip.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/resized/473x238/i/w/news/2022/10/28/1486712/250x125/isu-pks-dapat-tawaran-jatah-2-menteri-di-kabinet-jokowi-ini-respons-pdip.png'
+  },
+  {
+    judul: 'Komnas HAM Bantu Polisi Usut Kasus Tewasnya ASN Saksi Korupsi di Semarang',
+    upload_date: ' Sekitar 29 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/komnas-ham-bantu-polisi-usut-kasus-tewasnya-asn-saksi-korupsi-di-semarang.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486711/140x70/komnas-ham-bantu-polisi-usut-kasus-tewasnya-asn-saksi-korupsi-di-semarang.jpg'
+  },
+  {
+    judul: 'Warga Pakansari Resah, Tiga Hari Diteror Anak Ular Kobra',
+    upload_date: ' Sekitar 31 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/warga-pakansari-resah-tiga-hari-diteror-anak-ular-kobra.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486710/140x70/warga-pakansari-resah-tiga-hari-diteror-anak-ular-kobra.jpg'
+  },
+  {
+    judul: 'Polri Bakal Periksa Perusahaan Farmasi Lainnya Terkait Kasus Gagal Ginjal Anak',
+    upload_date: ' Sekitar 36 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/polri-bakal-periksa-perusahaan-farmasi-lainnya-terkait-kasus-gagal-ginjal-anak.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486708/140x70/polri-bakal-periksa-perusahaan-farmasi-lainnya-terkait-kasus-gagal-ginjal-anak.jpg'
+  },
+  {
+    judul: "Ma'ruf Amin Minta Parpol Tak Gunakan Politik Identitas: Bisa Memicu Konflik di Bawah",
+    upload_date: ' Sekitar 43 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/maruf-amin-minta-parpol-tak-gunakan-politik-identitas-bisa-memicu-konflik-di-bawah.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486705/140x70/maruf-amin-minta-parpol-tak-gunakan-politik-identitas-bisa-memicu-konflik-di-bawah.jpg'
+  },
+  {
+    judul: 'Polisi Limpahkan Tahap II Kasus Penipuan PT Asli Rancangan Indonesia ke Kejari Jaksel',
+    upload_date: ' Sekitar 45 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/polisi-limpahkan-tahap-ii-kasus-penipuan-pt-asli-rancangan-indonesia-ke-kejari-jaksel.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486702/140x70/polisi-limpahkan-tahap-ii-kasus-penipuan-pt-asli-rancangan-indonesia-ke-kejari-jaksel.jpg'
+  },
+  {
+    judul: 'Kunjungan Menhan Prabowo ke Pentagon Dinilai Upaya Modernisasi Alutsista',
+    upload_date: ' Sekitar 48 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/kunjungan-menhan-prabowo-ke-pentagon-dinilai-upaya-modernisasi-alutsista.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486699/140x70/kunjungan-menhan-prabowo-ke-pentagon-dinilai-upaya-modernisasi-alutsista.jpg'
+  },
+  {
+    judul: 'Peringati Sumpah Pemuda, Wamendagri Kibarkan Merah Putih di Dasar Laut Papua',
+    upload_date: ' Sekitar 59 Menit yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/peringati-sumpah-pemuda-wamendagri-kibarkan-merah-putih-di-dasar-laut-papua.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486694/140x70/peringati-sumpah-pemuda-wamendagri-kibarkan-merah-putih-di-dasar-laut-papua.jpg'
+  },
+  {
+    judul: 'PKS Minta Deklarasi Koalisi Tak Dipaksakan Sebelum Masalah Cawapres untuk Anies Beres',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/politik/pks-minta-deklarasi-koalisi-tak-dipaksakan-sebelum-masalah-cawapres-untuk-anies-beres.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486692/140x70/pks-minta-deklarasi-koalisi-tak-dipaksakan-sebelum-masalah-cawapres-untuk-anies-beres.jpg'
+  },
+  {
+    judul: 'Wapres: Jangan Sampai Kelompok Radikal Gunakan Politik Identitas Pada Pemilu 2024',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/wapres-jangan-sampai-kelompok-radikal-gunakan-politik-identitas-pada-pemilu-2024.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486689/140x70/wapres-jangan-sampai-kelompok-radikal-gunakan-politik-identitas-pada-pemilu-2024.jpg'
+  },
+  {
+    judul: 'Sowan ke Habib Novel bin Muhammad Alaydrus, Anies Dihadiahi Tongkat Tanduk Rusa',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/sowan-ke-habib-novel-bin-muhammad-alaydrus-anies-dihadiahi-tongkat-tanduk-rusa.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486684/140x70/sowan-ke-habib-novel-bin-muhammad-alaydrus-anies-dihadiahi-tongkat-tanduk-rusa.jpg'
+  },
+  {
+    judul: 'Densus 88 Ungkap Gelagat Aneh Siti Elina: Ingin Melukai Diri Sendiri & Teriak-Teriak',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/densus-88-ungkap-gelagat-aneh-siti-elina-melukai-diri-sendiri-dan-teriak-teriak.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486681/140x70/densus-88-ungkap-gelagat-aneh-siti-elina-melukai-diri-sendiri-dan-teriak-teriak.jpg'
+  },
+  {
+    judul: 'PDIP Ogah lagi Bahas Dewan Kolonel dan Manuver Relawan: Semua Dengar Aspirasi Rakyat',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/politik/pdip-ogah-lagi-bahas-dewan-kolonel-dan-manuver-relawan-semua-dengar-aspirasi-rakyat.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486678/140x70/pdip-ogah-lagi-bahas-dewan-kolonel-dan-manuver-relawan-semua-dengar-aspirasi-rakyat.jpg'
+  },
+  {
+    judul: 'Mensos Serahkan Santunan Presiden untuk 135 Korban Tragedi Kanjuruhan',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/mensos-serahkan-santunan-presiden-untuk-135-korban-tragedi-kanjuruhan.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486677/140x70/mensos-serahkan-santunan-presiden-untuk-135-korban-tragedi-kanjuruhan.jpg'
+  },
+  {
+    judul: 'Mahfud MD sebut Indonesia Butuh Pejuang Hukum Berakhlak Mulia dan Berotak Cerdas',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/mahfud-md-sebut-indonesia-butuh-pejuang-hukum-berakhlak-mulia-dan-berotak-cerdas.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486673/140x70/mahfud-md-sebut-indonesia-butuh-pejuang-hukum-berakhlak-mulia-dan-berotak-cerdas.jpg'
+  },
+  {
+    judul: 'Cara AKBP Arif Rachman Lepas Jeratan Penjara 5 Tahun Lebih',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/cara-akbp-arif-rachman-lepas-jeratan-penjara-5-tahun-lebih.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486671/140x70/cara-akbp-arif-rachman-lepas-jeratan-penjara-5-tahun-lebih.jpg'
+  },
+  {
+    judul: '4 Anak di Kabupaten Bogor Alami Gagal Ginjal Akut, 3 Meninggal dan 1 Dirawat',
+    upload_date: ' Sekitar 1 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/4-anak-di-kabupaten-bogor-alami-gagal-ginjal-akut-3-meninggal-dan-1-dirawat.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486669/140x70/4-anak-di-kabupaten-bogor-alami-gagal-ginjal-akut-3-meninggal-dan-1-dirawat.jpg'
+  },
+  {
+    judul: 'Kebakaran di Terminal 2E Bandara Soekarno-Hatta Padam, Ini Penyebabnya',
+    upload_date: ' Sekitar 2 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/kebakaran-di-terminal-2e-bandara-soekarno-hatta-padam-ini-penyebabnya.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486663/140x70/kebakaran-di-terminal-2e-bandara-soekarno-hatta-padam-ini-penyebabnya.jpg'
+  },
+  {
+    judul: 'Cari Kecocokan, PKS Gelar Pertemuan Anies dan Aher Pekan Depan',
+    upload_date: ' Sekitar 2 Jam yang lalu',
+    link: 'https://www.merdeka.com/politik/cari-kecocokan-pks-gelar-pertemuan-anies-dan-aher-pekan-depan.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486662/140x70/cari-kecocokan-pks-gelar-pertemuan-anies-dan-aher-pekan-depan.jpg'
+  },
+  {
+    judul: 'Ini Isi Pertemuan Jenderal Sigit dengan Tujuh Mantan Kapolri',
+    upload_date: ' Sekitar 2 Jam yang lalu',
+    link: 'https://www.merdeka.com/peristiwa/ini-isi-pertemuan-jenderal-sigit-dengan-tujuh-mantan-kapolri.html',
+    thumb: 'https://cdns.klimg.com/merdeka.com/i/w/news/2022/10/28/1486660/140x70/ini-isi-pertemuan-jenderal-sigit-dengan-tujuh-mantan-kapolri.jpeg'
+  }
+]
+```
+</details>
+<details><summary><b>emoji</b></summary><br>
+
+> Required parameters
+> - (emoji) *type **String***
+
+```js
+scraper.other.emoji('😁')
+.then(response => {
+  console.log(response)
+})
+```
+#### output
+```json
+1{
+  apple: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/grinning-face-with-big-eyes_1f603.png',
+  google: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/350/grinning-face-with-big-eyes_1f603.png',
+  samsung: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/samsung/349/grinning-face-with-big-eyes_1f603.png',
+  microsoft: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/microsoft/319/grinning-face-with-big-eyes_1f603.png',
+  whatsapp: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/whatsapp/326/grinning-face-with-big-eyes_1f603.png',
+  twitter: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/322/grinning-face-with-big-eyes_1f603.png',
+  facebook: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/327/grinning-face-with-big-eyes_1f603.png',
+  jooxPixel: 'https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/grinning-face-with-big-eyes_1f603.png',
+  openemoji: 'https://emojipedia-us.s3.amazonaws.com/source/skype/289/grinning-face-with-big-eyes_1f603.png',
+  emojidex: 'https://emojipedia-us.s3.amazonaws.com/source/noto-emoji-animations/344/grinning-face-with-big-eyes_1f603.gif',
+  messanger: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/joypixels/340/grinning-face-with-big-eyes_1f603.png',
+  LG: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/toss-face/342/grinning-face-with-big-eyes_1f603.png',
+  HTC: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/openmoji/338/grinning-face-with-big-eyes_1f603.png',
+  mozilla: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/noto-emoji/343/grinning-face-with-big-eyes_1f603.jpg',
+  softbank: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/sony/336/grinning-face-with-big-eyes_1f603.png',
+  docomo: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/emojidex/112/smiling-face-with-open-mouth_1f603.png',
+  KDDI: 'https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/facebook/65/smiling-face-with-open-mouth_1f603.png'
+}
+```
+</details>
+<details><summary><b>apkmirror</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.apkmirror(query)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>anoboy download link</b></summary><br>
+
+> Required parameters
+> - (url) *type **String***
+
+```js
+scraper.other.anoboydl('https://anoboy.lol/2021/12/tokyo-revengers-live-action-2021/') 
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>film search</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+
+```js
+scraper.other.film(query)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>mediafire link download</b></summary><br>
+
+> Required parameters
+> - (url) *type **String***
+
+```js
+scraper.other.mediafire(url)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>character in animeplanet</b></summary><br>
+
+> Required parameters
+> - (query) *type **String***
+```js
+scraper.other.chara(query)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>Instagram download media</b></summary><br>
+
+> Required parameters
+> - (url) *type **String***
+
+```js
+scraper.other.igdl(url)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+<details><summary><b>soundcloud download</b></summary><br>
+
+> Required parameters
+> - (url) *type **String***
+
+```js
+scraper.other.soundcloud(url)
+.then(response => {
+  console.log(response)
+})
+```
+</details>
+
 ### Anime
 
 <details><summary><b>Anoboy Search</b></summary><br>
@@ -51,7 +1117,7 @@ scraper.anime.anoboy_search('one piece')
     },
     thumbnail: 'https://4.bp.blogspot.com/--vECG2T4EDs/XavTXQdeo8I/AAAAAAAABWg/m5JcbW9hosgX_yU8t2I3XEYQaheB5LxiQCLcBGAsYHQ/s240/04-onepiece.jpeg',
     title: 'One Piece Subtitle Indonesia',
-    synopsis: 'Gol D. Roger dikenal sebagai “Raja Bajak Laut,” terkuat dan paling terkenal yang telah berlayar di Grand Line. Penangkapan dan kematian Roger oleh Pemerintah Dunia membawa perubahan di seluruh dunia. Kata-kata terakhirnya sebelum kematiannya mengungkapkan keberadaan harta terbesar di dunia, yaitu One Piece. kata2 tersebut membawa dan menjadi Era bajak laut, siapapun pria yang bermimpi untuk menemukan One Piece-yang menjanjikan jumlah yang tidak terbatas dari kekayaan dan ketenaran-dan sangat mungkin puncak kemuliaan dan gelar Raja Bajak Laut.'
+    synopsis: 'Gol D. Roger dikenal sebagai 鈥淩aja Bajak Laut,鈥? terkuat dan paling terkenal yang telah berlayar di Grand Line. Penangkapan dan kematian Roger oleh Pemerintah Dunia membawa perubahan di seluruh dunia. Kata-kata terakhirnya sebelum kematiannya mengungkapkan keberadaan harta terbesar di dunia, yaitu One Piece. kata2 tersebut membawa dan menjadi Era bajak laut, siapapun pria yang bermimpi untuk menemukan One Piece-yang menjanjikan jumlah yang tidak terbatas dari kekayaan dan ketenaran-dan sangat mungkin puncak kemuliaan dan gelar Raja Bajak Laut.'
   }
 }
 ```
@@ -103,7 +1169,7 @@ scraper.anime.mal_top_airing()
 })
 ```
 #### output
-```json 
+```json
 {
   result: [
     {
@@ -188,9 +1254,9 @@ scraper.anime.mal_top_anime()
     {
       rank: '3',
       thumbnail: 'https://cdn.myanimelist.net/r/50x70/images/anime/3/72078.jpg?s=e9537ac90c08758594c787ede117f209',
-      title: 'Gintama°',
+      title: 'Gintama掳',
       score: '9.08',
-      link: 'https://myanimelist.net/anime/28977/Gintama°'
+      link: 'https://myanimelist.net/anime/28977/Gintama掳'
     },
     {
       rank: '4',
@@ -522,7 +1588,7 @@ scraper.download.tiktok('https://vt.tiktok.com/ZSR2vqUFY/?k=1')
 #### output
 ```json
 {
-  title: 'yg nonton moga cpt punya hedon😀#vario #teamvario #vario125 #variomodifikasi',
+  title: 'yg nonton moga cpt punya hedon馃榾#vario #teamvario #vario125 #variomodifikasi',
   thumbnail: 'https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/4af6989af1c44fa39971b775adeb3fc7_1659318526?x-expires=1663077600&x-signature=T79X4yfbWp%2FytYpw%2BuCAgb5DPjQ%3D&s=AWEME_DETAIL&se=false&sh=&sc=dynamic_cover&l=202209130816120101901760190404BCB2',
   duration: null,
   result: [
@@ -693,25 +1759,25 @@ scraper.download.youtube_play_mp3('fungi look alive')
 {
   result: {
     title: 'Fungi - Look Alive',
-    description: '🔥 Blocboy Jr x Drake - Alive (Fungi Remix)🔥\n' +
-      '↪︎ https://soundcloud.com/beatsbyfungi/look-alive\n' +
+    description: '馃敟 Blocboy Jr x Drake - Alive (Fungi Remix)馃敟\n' +
+      '鈫笌 https://soundcloud.com/beatsbyfungi/look-alive\n' +
       "Bass Nation's Spotify playlist: http://spoti.fi/2kzinP8\n" +
       '\n' +
-      '🔊 Bass Nation 🔊\n' +
-      '●http://nations.io\n' +
-      '●http://twitter.com/all808nation\n' +
-      '●http://instagram.com/bassnation\n' +
-      '●http://facebook.com/allbassnation\n' +
-      '●http://soundcloud.com/allbassnation\n' +
-      '●https://snapchat.com/add/allbassnation\n' +
+      '馃攰 Bass Nation 馃攰\n' +
+      '鈼廻ttp://nations.io\n' +
+      '鈼廻ttp://twitter.com/all808nation\n' +
+      '鈼廻ttp://instagram.com/bassnation\n' +
+      '鈼廻ttp://facebook.com/allbassnation\n' +
+      '鈼廻ttp://soundcloud.com/allbassnation\n' +
+      '鈼廻ttps://snapchat.com/add/allbassnation\n' +
       '\n' +
-      '🎵 fungi 🎵\n' +
-      '●https://soundcloud.com/beatsbyfungi\n' +
-      '●https://traktrain.com/beatsbyfungi#168114\n' +
-      '●https://www.instagram.com/beatsbyfungi/\n' +
-      '●https://beatsbyfungi.bandcamp.com/\n' +
+      '馃幍 fungi 馃幍\n' +
+      '鈼廻ttps://soundcloud.com/beatsbyfungi\n' +
+      '鈼廻ttps://traktrain.com/beatsbyfungi#168114\n' +
+      '鈼廻ttps://www.instagram.com/beatsbyfungi/\n' +
+      '鈼廻ttps://beatsbyfungi.bandcamp.com/\n' +
       '\n' +
-      '⚠️ These videos may cause people with photosensitive epilepsy to convulse in seizures. Viewer discretion is advised. ⚠️\n' +
+      '鈿狅笍 These videos may cause people with photosensitive epilepsy to convulse in seizures. Viewer discretion is advised. 鈿狅笍\n' +
       '\n' +
       'Moving Backgrounds: https://www.instagram.com/officialgoestee/\n' +
       '\n' +
@@ -748,25 +1814,25 @@ scraper.download.youtube_play_mp4('fungi look alive')
 {
   result: {
     title: 'Fungi - Look Alive',
-    description: '🔥 Blocboy Jr x Drake - Alive (Fungi Remix)🔥\n' +
-      '↪︎ https://soundcloud.com/beatsbyfungi/look-alive\n' +
+    description: '馃敟 Blocboy Jr x Drake - Alive (Fungi Remix)馃敟\n' +
+      '鈫笌 https://soundcloud.com/beatsbyfungi/look-alive\n' +
       "Bass Nation's Spotify playlist: http://spoti.fi/2kzinP8\n" +
       '\n' +
-      '🔊 Bass Nation 🔊\n' +
-      '●http://nations.io\n' +
-      '●http://twitter.com/all808nation\n' +
-      '●http://instagram.com/bassnation\n' +
-      '●http://facebook.com/allbassnation\n' +
-      '●http://soundcloud.com/allbassnation\n' +
-      '●https://snapchat.com/add/allbassnation\n' +
+      '馃攰 Bass Nation 馃攰\n' +
+      '鈼廻ttp://nations.io\n' +
+      '鈼廻ttp://twitter.com/all808nation\n' +
+      '鈼廻ttp://instagram.com/bassnation\n' +
+      '鈼廻ttp://facebook.com/allbassnation\n' +
+      '鈼廻ttp://soundcloud.com/allbassnation\n' +
+      '鈼廻ttps://snapchat.com/add/allbassnation\n' +
       '\n' +
-      '🎵 fungi 🎵\n' +
-      '●https://soundcloud.com/beatsbyfungi\n' +
-      '●https://traktrain.com/beatsbyfungi#168114\n' +
-      '●https://www.instagram.com/beatsbyfungi/\n' +
-      '●https://beatsbyfungi.bandcamp.com/\n' +
+      '馃幍 fungi 馃幍\n' +
+      '鈼廻ttps://soundcloud.com/beatsbyfungi\n' +
+      '鈼廻ttps://traktrain.com/beatsbyfungi#168114\n' +
+      '鈼廻ttps://www.instagram.com/beatsbyfungi/\n' +
+      '鈼廻ttps://beatsbyfungi.bandcamp.com/\n' +
       '\n' +
-      '⚠️ These videos may cause people with photosensitive epilepsy to convulse in seizures. Viewer discretion is advised. ⚠️\n' +
+      '鈿狅笍 These videos may cause people with photosensitive epilepsy to convulse in seizures. Viewer discretion is advised. 鈿狅笍\n' +
       '\n' +
       'Moving Backgrounds: https://www.instagram.com/officialgoestee/\n' +
       '\n' +
@@ -796,7 +1862,7 @@ scraper.download.youtube_play_mp4('fungi look alive')
 > - (emoji) *type **String***
 
 ```js
-scraper.convert.emoji_to_png('🔥')
+scraper.convert.emoji_to_png('馃敟')
 .then(response => {
   console.log(response)
 })
@@ -1238,7 +2304,7 @@ scraper.pornhub.search(query) //scraper.pornhub.search(query, key, page)
       premium: false
     },
     {
-      title: '篠田ゆき 性欲に飢えたアラサー熟女をとこ とんヤリまくる',
+      title: '绡犵敯銈嗐亶 鎬ф銇＂銇堛仧銈儵銈点兗鐔熷コ銈掋仺銇? 銇ㄣ倱銉ゃ儶銇俱亸銈?',
       views: 809000,
       author: 'Paco Paco',
       duration: NaN,
@@ -1304,7 +2370,7 @@ scraper.pornhub.video() //scraper.pornhub.video(key, page)
 {
   results: [
     {
-      title: 'NAUGHTY persian GIRL FUCK BY HER NERD classmate!دختر شیطون حشری از خرخون کلاسشون میخواد بهش درس بده',
+      title: 'NAUGHTY persian GIRL FUCK BY HER NERD classmate!丿禺鬲乇 卮蹖胤賵賳 丨卮乇蹖 丕夭 禺乇禺賵賳 讴賱丕爻卮賵賳 賲蹖禺賵丕丿 亘賴卮 丿乇爻 亘丿賴',
       views: 274000,
       author: 'persianpeach',
       duration: NaN,
@@ -1385,21 +2451,21 @@ scraper.news.kompas_news('terkini')
 > - (type) *type **String***
 >
 > lits type
-> #### neon_text_effect
-> #### holographic_3d
-> #### galaxy_style
-> #### technology_neon_light
-> #### neon_devil_wings
-> #### glitch_text_effect
-> #### impressive_glitch
-> #### neon_light_text_3d
-> #### thunder_text_effect
-> #### neon_light_on_brick_wall
-> #### neon_light_glitch
-> #### light_glow_sliced
-> #### summer_neon_light
-> #### neon_light_blackpink_logo
-> #### gradient_neon_light
+> ***neon_text_effect***
+> ***holographic_3d***
+> ***galaxy_style***
+> ***technology_neon_light***
+> ***neon_devil_wings***
+> ***glitch_text_effect***
+> ***impressive_glitch***
+> ***neon_light_text_3d***
+> ***thunder_text_effect***
+> ***neon_light_on_brick_wall***
+> ***neon_light_glitch***
+> ***light_glow_sliced***
+> ***summer_neon_light***
+> ***neon_light_blackpink_logo***
+> ***gradient_neon_light***
 > - (text) *type **String***
 
 ```js
@@ -1411,7 +2477,7 @@ scraper.textpro.light_style(type, text)
   console.log(response)
 })
 ```
-#### output
+### output
 ```json
 {
   result: {
