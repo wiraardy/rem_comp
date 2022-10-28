@@ -1170,7 +1170,7 @@ scraper.other.anoboydl('https://anoboy.lol/2021/12/tokyo-revengers-live-action-2
       },
  mirror: {
       SD: 'https://www70.zippyshare.com/v/YnMvvGMg/file.html',
-      HD: 'none'                                                                                                                                                                     
+      HD: 'none'
       }
 }
 ```
@@ -1319,7 +1319,11 @@ scraper.other.chara('elaina')
 
 #### output
 ```json
-{                                                                                                                                                                                  nama: 'Elaina',                                                                                                                                                                  gender: 'Female ',                                                                                                                                                               warna_rambut: 'Grey ',                                                                                                                                                           warna_mata: undefined,
+{                                                                                                                                                                                  
+  nama: 'Elaina',
+  gender: 'Female ',
+  warna_rambut: 'Grey ', 
+  warna_mata: undefined,
   gol_darah: undefined,
   birthday: undefined,
   description: ''
@@ -1332,10 +1336,26 @@ scraper.other.chara('elaina')
 > - (url) *type **String***
 
 ```js
-scraper.other.igdl(url)
+scraper.other.igdl('https://www.instagram.com/reel/CkN-Iz9pI4j/?utm_source=ig_web_copy_link')
 .then(response => {
   console.log(response)
 })
+```
+
+#### output
+```json
+[
+  {
+    audioAvailable: true,
+    cached: false,
+    chunked: false,
+    extension: 'mp4',
+    formattedSize: '20M',
+    quality: 'HD',
+    videoAvailable: true,
+    url: 'https://downloader.twdown.online/en0961/free-video-converter?url=aeHGRl01ceHGMl6hLbym9RtvZdWeRWpTYpSg5O0O0OzO0O0Oc3lvdXR1YmUuY29tL2dldD9fX3NpZz1XMW53aU9ZVS1oMnZ1WTJjRXJyLUlRJl9fZXhwaXJlcz0xNjY2OTU3OTk2JnVyaT1odHRwcyUzQSUyRiUyRnNjb250ZW50LmNkbmluc3RhZ3JhbS5jb20lMkZ2JTJGdDUwLjI4ODYtMTYlMkYzMTI4MTI3ODZfMTE4Mzg0MDA4NTY3NzQ2NV8xMTUwNjYwMTAzNTM2ODA4MjYyX24ubXA0JTNGX25jX2h0JTNEc2NvbnRlbnQuY2RuaW5zdGFncmFtLmNvbSUyNl9uY19jYXQlM0QxMDElMjZfbmNfb2hjJTNESHpvb044RW5XWkVBWDlDRjl1MCUyNmVkbSUzREFKQmdacllCQUFBQSUyNmNjYiUzRDctNSUyNm9oJTNEMDBfQWZBYW5OVUNnaERxM3J0RzMwRXJibVlFSVJSMURZVy1qMlVLZW9iS2xyYjNZdyUyNm9lJTNENjM1RDNCMDklMjZfbmNfc2lkJTNENzhjNjYyJTI2ZGwlM0QxJmZpbGVuYW1lPVNpYXBhJTIweWFuZyUyMG1hdSUyMGp1Z2ElRTIlODElQTMlMjBTdW1iZXItJTIwSW5zdGFncmFtLWx1c2hmYWRlZCVFMiU4MSVBMyVFMiU4MSVBMyUyM090YWt1X0FuaW1lX0luZG9uZXNpYSUyMCUyM090YWt1X0Nvcm5lciUyMCUyM3lvcmZvcmdlciUyMCUyM3lvciUyMCUyM2Nvc3BsYXklMjAlMjNjb3NwbGF5ZXIlMjAlMjNzcHl4ZmFtaWx5JTIwJTIzb3Rha3UlMjAlMjNhbmltZWluZG8ubXA0JnVhPS0mcmVmZXJlcj1odHRwcyUzQSUyRiUyRnd3dy5pbnN0YWdyYW0uY29tJTJG#video_show'
+  }
+]
 ```
 </details>
 <details><summary><b>soundcloud download</b></summary><br>
