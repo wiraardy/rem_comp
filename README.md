@@ -8,6 +8,7 @@ Or via yarn
 ```shell
 yarn add rem_comp
 ```
+[![NPM](https://img.shields.io/badge/npm-362a63?style=for-the-badge&logo=npm&logoColor=cyan)](https://www.npmjs.com/package/rem_comp)
 
 # List Scraper
 * [Anime](#anime)
@@ -27,7 +28,6 @@ yarn add rem_comp
 Usage
 ```js
 var scraper = require('rem_comp')
-
 ```
 ### NewFeature 
 
