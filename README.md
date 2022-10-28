@@ -8,7 +8,6 @@ Or via yarn
 ```shell
 yarn add rem_comp
 ```
-[![NPM](https://img.shields.io/badge/npm-362a63?style=for-the-badge&logo=npm&logoColor=cyan)](https://www.npmjs.com/package/rem_comp)
 
 # List Scraper
 * [Anime](#anime)
@@ -28,6 +27,7 @@ yarn add rem_comp
 Usage
 ```js
 var scraper = require('rem_comp')
+
 ```
 ### NewFeature 
 
@@ -2736,23 +2736,30 @@ scraper.news.kompas_news('terkini')
 
 > Required Parameters
 > - (type) *type **String***
->
-> lits type
-> ***neon_text_effect***
-> ***holographic_3d***
-> ***galaxy_style***
-> ***technology_neon_light***
-> ***neon_devil_wings***
-> ***glitch_text_effect***
-> ***impressive_glitch***
-> ***neon_light_text_3d***
-> ***thunder_text_effect***
-> ***neon_light_on_brick_wall***
-> ***neon_light_glitch***
-> ***light_glow_sliced***
-> ***summer_neon_light***
-> ***neon_light_blackpink_logo***
-> ***gradient_neon_light***
+
+<details><summary><b>list type</b></summary><br>
+
+```json
+{
+ neon_text_effect,
+ holographic_3d,
+ galaxy_style,
+ technology_neon_light,
+ neon_devil_wings,
+ glitch_text_effect,
+ impressive_glitch,
+ neon_light_text_3d,
+ thunder_text_effect,
+ neon_light_on_brick_wall,
+ neon_light_glitch,
+ light_glow_sliced,
+ summer_neon_light,
+ neon_light_blackpink_logo,
+ gradient_neon_light
+}
+```
+ </details>
+ 
 > - (text) *type **String***
 
 ```js
